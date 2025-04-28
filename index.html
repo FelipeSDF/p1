@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capmar - Landing Page</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/response.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+
+  <nav>
+    <img id="logo-img" src="midia/img/logoLogin.png" alt="Logo Capmar" />
+    <ul id="nav-bar">
+      <li><a href="#container-about-us">Sobre nós</a></li>
+      <li><a href="#container-project">Projetos</a></li>
+      <li><a href="#container-contact">Contato</a></li>
+      <li><a href="favoritePage.html">Favoritos</a></li>
+      <li id="login"><a href="#">Login</a></li>
+    </ul>
+
+    <div id="menu-burguer" onclick="toggleMenu()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+
+
+  <section id="wellcome-container">
+    <div id="container-video">
+      <video src="midia/video/universo.mp4" muted autoplay loop></video>
+    </div>
+    <div id="container-paragrafo">
+      <h2>Bem-vindo a Capmar</h2>
+      <p>Mostre seu projeto para o mundo e conecte-se com novas oportunidades.</p>
+    </div>
+  </section>
+
+  <section id="container-about-us">
+    <div id="title-about-us">
+      <h2>Sobre Nós</h2>
+    </div>
+
+    <div id="paragrafo-about-us">
+      <p>Capmar é uma plataforma dedicada a conectar pessoas e projetos inovadores. Aqui, você tem a chance de mostrar
+        sua criatividade, compartilhar suas ideias e fazer sua marca ser vista. Estamos comprometidos em promover
+        visibilidade, engajamento e oferecer mais oportunidades de investimento para o seu projeto.</p>
+    </div>
+
+    <div id="topics-about-us">
+      <div>
+        <span class="material-symbols-outlined">travel_explore</span>
+        <label>+Visibilidade</label>
+      </div>
+
+      <div>
+        <span class="material-symbols-outlined">groups</span>
+        <label>+Engajamento</label>
+      </div>
+
+      <div>
+        <span class="material-symbols-outlined">attach_money</span>
+        <label>+Investimento</label>
+      </div>
+    </div>
+  </section>
+
+  <section id="container-project">
+
+    <div class="list">
+      <div class="list-item">
+        <img src="midia/img/img1.jpg" alt="Projeto Inovador 1" />
+        <div class="content">
+          <h2 class="title">Projeto Inovador 1</h2>
+          <p class="description-project">Este projeto é voltado para a inovação tecnológica, buscando solucionar
+            problemas reais de forma criativa. Junte-se a nós e faça a diferença no mundo.</p>
+          <button class="btn-learn-more">Saiba Mais</button>
+          <button class="btn-favorite">
+            <span class="material-symbols-outlined">favorite</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="list-item">
+        <img src="midia/img/img2.jpg" alt="Projeto Sustentável 2" />
+        <div class="content">
+          <h2 class="title">Projeto Sustentável 2</h2>
+          <p class="description-project">Focado em soluções sustentáveis, este projeto visa promover a conscientização
+            ambiental e criar alternativas para um futuro mais verde.</p>
+          <button class="btn-learn-more">Saiba Mais</button>
+          <button class="btn-favorite">
+            <span class="material-symbols-outlined">favorite</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="list-item">
+        <img src="midia/img/img3.jpg" alt="Educação para Todos 3" />
+        <div class="content">
+          <h2 class="title">Educação para Todos 3</h2>
+          <p class="description-project">Este projeto visa a inclusão social e educacional, promovendo oportunidades de
+            aprendizado para todas as idades e contextos.</p>
+          <button class="btn-learn-more">Saiba Mais</button>
+          <button class="btn-favorite">
+            <span class="material-symbols-outlined">favorite</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="list-item">
+        <img src="midia/img/img4.jpg" alt="Tecnologia e Inovação 4" />
+        <div class="content">
+          <h2 class="title">Tecnologia e Inovação 4</h2>
+          <p class="description-project">Com foco em tecnologia de ponta, este projeto explora novas formas de melhorar
+            a vida das pessoas através de soluções inovadoras.</p>
+          <button class="btn-learn-more">Saiba Mais</button>
+          <button class="btn-favorite">
+            <span class="material-symbols-outlined">favorite</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="thumb">
+      <div class="thumb-item">
+        <img src="midia/img/img1.jpg" alt="Projeto Inovador 1" />
+        <h3>Projeto Inovador 1</h3>
+      </div>
+
+      <div class="thumb-item">
+        <img src="midia/img/img2.jpg" alt="Projeto Sustentável 2" />
+        <h3>Projeto Sustentável 2</h3>
+      </div>
+
+      <div class="thumb-item">
+        <img src="midia/img/img3.jpg" alt="Educação para Todos 3" />
+        <h3>Educação para Todos 3</h3>
+      </div>
+
+      <div class="thumb-item">
+        <img src="midia/img/img4.jpg" alt="Tecnologia e Inovação 4" />
+        <h3>Tecnologia e Inovação 4</h3>
+      </div>
+    </div>
+
+    <div class="arrows">
+      <button class="back">&lt;</button>
+      <button class="next">&gt;</button>
+    </div>
+
+  </section>
+
+  <section id="container-contact">
+    <div id="content-contact">
+      <div id="container-form">
+        <div id="title-form">
+          <h2>Entre em Contato</h2>
+        </div>
+
+        <div id="form">
+          <form action="#" method="post">
+            <div class="input" id="input-name">
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="input" id="input-email">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input" id="input-message">
+              <label for="message">Mensagem</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <div class="input" id="input-submit">
+              <input type="submit" value="Enviar">
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div id="social">
+
+        <div id="text-contact">
+          <p>Estamos sempre disponíveis para ajudar e tirar suas dúvidas. Entre em contato para mais informações sobre
+            nossos serviços ou projetos!</p>
+        </div>
+
+        <figure id="container-logo-social">
+          <img src="midia/img/insta.png" alt="Instagram" />
+          <img src="midia/img/gmail.png" alt="Gmail" />
+          <img src="midia/img/linkdin.png" alt="LinkedIn" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Capmar - Todos os direitos reservados.</p>
+      <ul>
+        <li><a href="#">Política de Privacidade</a></li>
+        <li><a href="#">Termos de Serviço</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+</body>
+<script src="LandingPage.js"></script>
+<script src="favoritePage.js"></script>
+
+</html>

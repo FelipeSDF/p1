@@ -1,0 +1,160 @@
+@media (max-width: 1400px) {  
+    #nav-bar {
+        width: 50%;
+    }
+    #container-paragrafo h2 {
+        font-size: 32px;
+    }
+    #container-paragrafo p {
+        font-size: 22px;
+    }
+    #topics-about-us {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    #topics-about-us div {
+        width: 80%;
+    }
+    #container-project .thumb {
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #nav-bar {
+        flex-direction: column;
+        width: 100%;
+    }
+    #container-about-us {
+        height: auto;
+        padding: 50px 0;
+    }
+    #paragrafo-about-us {
+        width: 80%;
+    }
+    #topics-about-us {
+        width: 90%;
+    }
+    #container-project .thumb {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+    #container-project .arrows {
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #container-contact #content-contact {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        padding: 30px 0;
+    }
+    #container-form, #social {
+        width: 90%;
+    }
+}
+
+
+#menu-burguer {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+#menu-burguer .line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+
+@media (max-width: 900px) {
+    #menu-burguer {
+        display: flex;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    #nav-bar {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: #091f3d73;
+        backdrop-filter: blur(10px);
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 20px;
+        transition: 0.4s ease;
+        z-index: 999;
+    }
+
+    #nav-bar li{
+        margin-top: 15px;
+    }
+
+    #nav-bar.active {
+        height: 250px; 
+    }
+}
+
+@media (max-width: 700px) {
+    #container-paragrafo h2 {
+        font-size: 24px;
+    }
+    #container-paragrafo p {
+        font-size: 18px;
+    }
+    #title-about-us h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+    #paragrafo-about-us p {
+        font-size: 20px;
+    }
+    #topics-about-us div span {
+        font-size: 40px;
+    }
+    #topics-about-us div label {
+        font-size: 16px;
+    }
+    #container-project .list .list-item .title {
+        font-size: 2em;
+    }
+    #container-project .list .list-item .description-project {
+        font-size: 1em;
+    }
+    #container-project .thumb .thumb-item {
+        width: 100px;
+        height: 150px;
+    }
+    #container-project .arrows button {
+        font-size: 1.2em;
+        padding: 10px 14px;
+    }
+    #container-logo-social img {
+        width: 40px;
+    }
+    footer div {
+        flex-direction: column;
+    }
+    footer div ul {
+        align-items: center;
+    }
+}
+
+
